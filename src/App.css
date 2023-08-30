@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;    /*Read on W3Schools. When setting size for a div or any element, given this property all the padding and border
+                                sizes would be included in the size specified for the div. They won't be added which can then maintain the 
+                                size we've specified for the div.*/
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: var(--color-bg);
+}
+a{
+    color: unset;
+    text-decoration: none;
+}
+.gradient__bg{  /*gradient from online gradient generator*/
+    /* global 92%+ browsers support */
+    background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+}
+.gradient__text{
+    background: var(--gradient-text);
+    background-clip: text;  /*specifies till where the background will be shown. Here it is like clipping mask.*/
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;   /*similar to color (property to set text color). Transparent to use as clipping mask.*/
+}
+.section__padding{
+    padding: 2rem 6rem;
+}                           /*Generalised padding and margin made for all the sections.*/
+.section__margin{
+    margin: 4rem 6rem;
+}
+
+/*CSS Animation preset code from animsta.net*/
+.scale-up-center {
+	-webkit-animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+	        animation: scale-up-center 0.4s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+/*Animation key-frames for scale-up-center animation. Again from animsta.net*/
+ @-webkit-keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  @keyframes scale-up-center {
+    0% {
+      -webkit-transform: scale(0.5);
+              transform: scale(0.5);
+    }
+    100% {
+      -webkit-transform: scale(1);
+              transform: scale(1);
+    }
+  }
+  
+
+  /*Media query part*/
+  
+@media screen and (max-width: 700px){   /*Screen size till 700px*/
+    .section__padding{
+        padding: 4rem;
+    }
+    .section__margin{
+        margin: 4rem;
+    }
+}
+
+@media screen and (max-width: 550px){   /*Screen size till 550px*/
+    .section__padding{
+        padding: 4rem;
+    }
+    .section__margin{
+        margin: 4rem;
+    }
+}
