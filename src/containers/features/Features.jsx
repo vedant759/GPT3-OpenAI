@@ -4,19 +4,19 @@ import { Feature } from "../../components";
 
 const featuresData = [
   {
-    title: "Improving end distrusts instantly",
+    title: "Reasoning and Problem Solving",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus pellentesque eu tincidunt tortor aliquam nulla.",
   },
   {
-    title: "Become the tended active",
+    title: "Learning and Adaptation",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus pellentesque eu tincidunt tortor aliquam nulla.",
   },
   {
-    title: "Message or am nothing",
+    title: "Speech Recognition and Synthesis",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus pellentesque eu tincidunt tortor aliquam nulla.",
   },
   {
-    title: "Really boy law county",
+    title: "Autonomous Decision-Making",
     text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tellus pellentesque eu tincidunt tortor aliquam nulla.",
   },
 ];
